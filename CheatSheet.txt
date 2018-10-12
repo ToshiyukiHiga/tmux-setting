@@ -1,0 +1,43 @@
+/ 起動
+$ tmux
+
+// 終了
+$ exit
+
+// タブ作成↲
+Control + b →　c
+
+// タブ切り替え1
+Control + b <Tub Number>
+
+// 右のタブに切り替え
+Contorol + b → n
+
+// 左のタブに切り替え
+Contorol + b → p
+
+// 横に分割
+Control + b → s
+
+// 縦に分割
+Control + b → %
+
+// タブ名の変更
+Control + b ,
+
+
+// デタッチ・・・作業を中断したい場合に使用
+Control + b → d
+
+// アタッチ・・・　中断などででタッチしたあとに再開する場合に使用
+Control + b → attach
+
+
+// タブの強制終了
+tmux kill-window -t <Tub Nmber>
+
+ペインの強制終了
+tmux kill-pane -t <Pane Number>
+
+// ペイン番号の表示
+Control + b → q
